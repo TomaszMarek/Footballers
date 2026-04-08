@@ -1,0 +1,109 @@
+/* FootballerTable.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.form-container {
+    background-color: #2d3748;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+.input-field, .select-field, .submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+}
+
+.submit-button {
+    background-color: #38a169;
+    color: white;
+    cursor: pointer;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    background-color: #2b6cb0;
+    border-radius: 0.25rem;
+    color: white;
+}
+
+.table th, .table td {
+    padding: 0.5rem 1rem;
+    text-align: left;
+}
+
+.table th {
+    cursor: pointer;
+}
+
+.table th.sort-asc::after {
+    content: " ▲";
+}
+
+.table th.sort-desc::after {
+    content: " ▼";
+}
+
+.table tr:hover {
+    background-color: #2c5282;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.action-button {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    color: white;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #d69e2e;
+}
+
+.delete-button {
+    background-color: #e53e3e;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.search-bar {
+    width: 50%;
+}
+
+.add-player-button {
+    background-color: #08cd40;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 1rem;
+}

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #002173;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #333;
+    text-align: center;
+}
+
+th {
+    background-color: #2d3748;
+}
+
+tr:nth-child(even) {
+    background-color: #2a4365;
+}
+
+tr:nth-child(odd) {
+    background-color: #1a365d;
+}
