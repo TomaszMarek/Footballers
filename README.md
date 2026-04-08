@@ -2,7 +2,7 @@
 
 Fullstack aplikacja webowa do zarządzania bazą danych piłkarzy. Umożliwia rejestrację i logowanie użytkowników, dodawanie, edytowanie oraz usuwanie piłkarzy, a także przeglądanie statystyk w formie wykresów.
 
-## 🛠 Stack technologiczny
+## Stack technologiczny
 
 **Backend**
 - Node.js + Express
@@ -22,7 +22,7 @@ Fullstack aplikacja webowa do zarządzania bazą danych piłkarzy. Umożliwia re
 
 ---
 
-## ✨ Funkcjonalności
+## Funkcjonalności
 
 - Rejestracja i logowanie użytkowników (hasła hashowane bcryptjs)
 - Chronione trasy – dostęp tylko dla zalogowanych użytkowników
@@ -36,7 +36,7 @@ Fullstack aplikacja webowa do zarządzania bazą danych piłkarzy. Umożliwia re
 
 
 
-## 🚀 Instalacja i uruchomienie
+## Instalacja i uruchomienie
 
 ### 1. Sklonuj repozytorium
 
@@ -82,7 +82,7 @@ Aplikacja działa na `http://localhost:3000`
 
 ---
 
-## 🔐 Zmienne środowiskowe
+## Zmienne środowiskowe
 
 Utwórz plik `.env` w folderze `backend`:
 
@@ -98,7 +98,7 @@ MONGO_URL=mongodb+srv://<user>:<password>@cluster.mongodb.net/footballers
 
 ---
 
-## 📡 API – endpointy
+## API – endpointy
 
 ### Autoryzacja – `/api/auth`
 
@@ -131,7 +131,7 @@ s
 ---
 
 
-## 🌱 Import przykładowych danych
+## Import przykładowych danych
 
 Plik `seed.js` wypełnia bazę danych przykładowymi piłkarzami z pliku `playersData.js`.
 
